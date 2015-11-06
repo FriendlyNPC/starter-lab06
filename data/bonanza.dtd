@@ -58,7 +58,7 @@ and on bottom -->
 <!-- sauce anre similar to toppings -->
 <!ELEMENT sauce EMPTY>
 <!ATTLIST sauce
-    type (ketchup|mustard|mayo|fksauce) #REQUIRED
+    type (ketchup|mustard|mayo|fksauce|peanut-butter) #REQUIRED
 >
 
 <!-- any instructions for the burger -->

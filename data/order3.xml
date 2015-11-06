@@ -5,7 +5,7 @@ Order 3, my order
 
 <!DOCTYPE order SYSTEM 'bonanza.dtd'>
 
-<order type="delivery">
+<order type="eatin">
     <customer>Devan</customer>
     <burger>
         <patty type="bison" />
@@ -20,6 +20,16 @@ Order 3, my order
         the burger will be returned. Home-made mayo only, none of that
         Hellmans stuff, don't even try to use miracal whip.</instructions>
         <name>The Obnoxious Burger</name>
+    </burger>
+    <burger>
+        <patty type="pork" />
+        <cheeses top="jack" bottom="aged" />
+        <topping type="shrooms" />
+        <topping type="chilies" />
+        <topping type="avacado" />
+        <sauce type="fksauce" />
+        <sauce type="peanut-butter" />
+        <name>The Lab Requirements</name>
     </burger>
     <special>The entire order must be served via paliquin on a fine china dish,
         with imported Italian silverware. 
