@@ -43,20 +43,20 @@ Bob's Build a burger Order Placement data
 
 <!-- the cheesy goodness of the buger, can be of two cheese types, one on top 
 and on bottom -->
-<!ELEMENT cheeses (EMPTY)>
+<!ELEMENT cheeses EMPTY>
 <!ATTLIST cheeses
     top (american|swiss|jack|blue|gruyere|gouda|aged|goat|brie) #IMPLIED
     bottom (american|swiss|jack|blue|gruyere|gouda|aged|goat|brie) #IMPLIED
 >
 
 <!-- any number of toppings, will be handled individually-->
-<!ELEMENT toppings (#PCDATA)>
-<!ATTLIST toppings
+<!ELEMENT topping (#PCDATA)>
+<!ATTLIST topping
     type (lettuce|tomato|raw|dill|roasted|shrooms|salca|bacon|chilies|fkchili|avacado|egg|porkbelly) #REQUIRED
 >
 
 <!-- sauce anre similar to toppings -->
-<!ELEMENT sauce (EMPTY)>
+<!ELEMENT sauce EMPTY>
 <!ATTLIST sauce
     type (ketchup|mustard|mayo|fksauce) #REQUIRED
 >
