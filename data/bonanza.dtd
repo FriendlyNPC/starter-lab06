@@ -5,7 +5,7 @@ Bob's Build a burger Order Placement data
 
 
 <!-- An order identifies customer, order type, burgers and special stuff  -->
-<!ELEMENT order (customer, delivery?, burger+, special)>
+<!ELEMENT order (customer, delivery?, burger+, special?, name?)>
 
 <!-- A customer is identified by their name -->
 <!ELEMENT customer (#PCDATA)>
