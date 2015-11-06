@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Order 3, my order
+-->
+
+<!DOCTYPE order SYSTEM 'bonanza.dtd'>
+
+<order type="eatin">
+    <customer>Devan</customer>
+    <burger>
+        <patty type="bison" />
+        <cheeses top="blue" />
+        <topping type="lettuce" />
+        <topping type="tomato" />
+        <topping type="bacon" />
+        <sauce type="mayo"/>
+        <instructions>The bison must be well aged with a well marbled meat,
+        and the bacon extremly crispy, like shatter in your mouth crispy,
+        there must be no wilted lettuce, a single wilted leaf and
+        the burger will be returned. Home-made mayo only, none of that
+        Hellmans stuff, don't even try to use miracal whip.</instructions>
+        <name>The Obnoxious Burger</name>
+    </burger>
+    <burger>
+        <patty type="pork" />
+        <cheeses top="jack" bottom="aged" />
+        <topping type="shrooms" />
+        <topping type="chilies" />
+        <topping type="avacado" />
+        <sauce type="fksauce" />
+        <instructions>Add peanut butter</instructions>
+        <name>The Lab Requirements</name>
+    </burger>
+    <special>The entire order must be served via paliquin on a fine china dish,
+        with imported Italian silverware. 
+    </special>
+</order>
