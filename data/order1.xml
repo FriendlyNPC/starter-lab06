@@ -13,4 +13,7 @@ and open the template in the editor.
         <patty type="beef" />
         <cheeses top="gruyerer" />
         <toppings type="shrooms" />
-        
+        <sauce type="ketchup"/>
+        <sauce type="mayo" />
+    </burger>
+</order>
